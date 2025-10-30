@@ -1,0 +1,312 @@
+<!-- HTML LAYOUT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marc Palahí - Skills</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="./index.html" data-i18n="nav.about">SOBRE MÍ</a>
+        <a href="./resume.html" data-i18n="nav.resume">CURRÍCULUM</a>
+        <a href="./portfolio.html" data-i18n="nav.portfolio">PORTFOLIO</a>
+        <div class="language-selector">
+        🌐
+        <select id="languageSelect">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="ca">Català</option>
+            <option value="fr">Français</option>
+        </select>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-3">
+                <div class="card">
+                    <div class="avatar-box">
+                        <img src="./img/Face.jpg">
+                    </div>
+    
+                    <div class="text-center">
+                        <h1 class="mb-2">Marc Palahí</h1>
+                        <span class="badge badge-primary" data-i18n="role.profession">Programador</span>
+                    </div>
+    
+                    <hr class="mt-3"/>
+    
+                    <div class="row info-list-responsive">
+                        <ul class="col-4">
+                            <li class="d-inline-flex align-items-center mt-2">
+                                <span class="icon-box">
+                                    <i class="fa fa-envelope-o"></i>
+                                </span>
+                                <div>
+                                    <span class="fs-small">EMAIL</span><br/>
+                                    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=coconutprograms@gmail.com" target="_blank">coconutprograms</a></p>
+                                </div>
+                            </li>
+
+                            <li class="d-inline-flex align-items-center mt-2">
+                                <span class="icon-box">
+                                    <i class="fa fa-github"></i>
+                                </span>
+                                <div>
+                                    <span class="fs-small">GITHUB</span><br/>
+                                    <p><a href="https://github.com/coconutpr" target="_blank">coconutpr</a></p>
+                                </div>
+                            </li>
+
+                            <li class="d-inline-flex align-items-center mt-2">
+                                <span class="icon-box">
+                                    <i class="fa fa-phone"></i>
+                                </span>
+                                <div>
+                                    <span class="fs-small" data-i18n="role.phone">TELÉFONO</span><br/>
+                                    <p>+34 667 62 07 36</p>
+                                </div>
+                            </li>
+
+                            <li class="d-inline-flex align-items-center mt-2">
+                                <span class="icon-box">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                                <div>
+                                    <span class="fs-small" data-i18n="role.birth_date">FECHA DE NACIMIENTO</span><br/>
+                                    <p>30/01/2003</p>
+                                </div>
+                            </li>
+        
+                            <li class="d-inline-flex align-items-center mt-2">
+                                <span class="icon-box">
+                                    <i class="fa fa-map-marker"></i>
+                                </span>
+                                <div>
+                                    <span class="fs-small" data-i18n="role.ubi">UBICACIÓN</span>
+                                    <p>Girona, Spain</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="info-list">
+                        <li class="d-inline-flex align-items-center mt-2">
+                            <span class="icon-box">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                            <div>
+                                <span class="fs-small">EMAIL</span><br/>
+                                <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=coconutprograms@gmail.com" target="_blank">coconutprograms</a></p>
+                            </div>
+                        </li>
+
+                        <li class="d-inline-flex align-items-center mt-2">
+                            <span class="icon-box">
+                                <i class="fa fa-github"></i>
+                            </span>
+                            <div>
+                                <span class="fs-small">GITHUB</span><br/>
+                                <p><a href="https://github.com/coconutpr" target="_blank">coconutpr</a></p>
+                            </div>
+                        </li>
+    
+                        <li class="d-inline-flex align-items-center mt-2">
+                            <span class="icon-box">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                            <div>
+                                <span class="fs-small" data-i18n="role.phone">TELÉFONO</span><br/>
+                                <p>+34 667620736</p>
+                            </div>
+                        </li>
+    
+                        <li class="d-inline-flex align-items-center mt-2">
+                            <span class="icon-box">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                            <div>
+                                <span class="fs-small" data-i18n="role.birth_date">FECHA DE NACIMIENTO</span><br/>
+                                <p>30/01/2003</p>
+                            </div>
+                        </li>
+    
+                        <li class="d-inline-flex align-items-center mt-2">
+                            <span class="icon-box">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            <div>
+                                <span class="fs-small" data-i18n="role.ubi">UBICACIÓN</span>
+                                <p>Girona, Spain</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col col-9">
+                <div class="card">
+                    <h2 class="title_separator" data-i18n="curriculumText.title">Currículum</h2>
+                    <div class="d-inline-flex align-items-center mt-2">
+                        <span class="icon-box">
+                            <i class="fa fa-book"></i>
+                        </span>
+                        <h3 data-i18n="curriculumText.title_education">Educación</h3>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <h4 class="mt-1" data-i18n="curriculumText.edu_title1">Desarrollo de aplicaciones multiplataforma (DAM)</h4>
+                        <p data-i18n="curriculumText.edu_text1">Ciclo Formativo de Grado Superior</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <h4 class="mt-1" data-i18n="curriculumText.edu_title2">Bachillerato</h4>
+                        <p data-i18n="curriculumText.edu_text2">Modalidad Social-Humanística</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <h4 class="mt-1" data-i18n="curriculumText.edu_title3">Competic 3</h4>
+                        <p data-i18n="curriculumText.edu_text3">Curso de utilización avanzada de aplicaciones informáticas</p>
+                        <br/><br/>
+                    </div>
+
+
+
+                    <div class="d-inline-flex align-items-center mt-2">
+                        <span class="icon-box">
+                            <i class="fa fa-car"></i>
+                        </span>
+                        <h3 data-i18n="curriculumText.title_drive">Permisos de conducción</h3>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <p>
+                            <span class="badge-secondary">A1</span>
+                            <span class="badge-secondary">A2</span>
+                            <span class="badge-secondary">A</span>
+                            <span class="badge-secondary">B</span>
+                            <span class="badge-secondary">C1</span>
+                            <span class="badge-secondary">C</span>
+                            <span class="badge-secondary" data-i18n="curriculumText.drive_text1">CAP Mercancías</span>
+                            <span class="badge-secondary">Skypicking</span>
+                            <br/><br/>
+                        </p>
+                    </div>
+
+
+
+                    <div class="d-inline-flex align-items-center mt-2">
+                        <span class="icon-box">
+                            <i class="fa fa-car"></i>
+                        </span>
+                        <h3 data-i18n="curriculumText.title_languages">Idiomas</h3>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <p>
+                            <span class="mt-1" data-i18n="curriculumText.lang_text1">Català</span> — Nativo<br/>
+                            <span class="mt-1" data-i18n="curriculumText.lang_text2">Castellano</span> — Nativo<br/>
+                            <span class="mt-1" data-i18n="curriculumText.lang_text3">English</span> — Avanzado (B2)<br/>
+                            <span class="mt-1" data-i18n="curriculumText.lang_text4">Français</span> — Básico (A2)
+                            <br/><br/>
+                        </p>
+                    </div>
+
+
+
+                    <div class="d-inline-flex align-items-center mt-3">
+                        <span class="icon-box">
+                            <i class="fa fa-shopping-bag"></i>
+                        </span>
+                        <h3 data-i18n="curriculumText.title_experience">Experiencia</h3>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date1">Jun. 2024 - Ahora</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title1">Gestión de Apartamento Turístico - Proyecto Familiar</h4>
+                        <p data-i18n="curriculumText.exp_text1">Encargado de la gestión integral de un apartamento turístico, incluyendo la atención a huéspedes, limpieza y mantenimiento. 
+                        Implementación de estrategias para optimizar reservas y valoraciones. 
+                        Creación y mantenimiento de la página web del alojamiento para mejorar la visibilidad y facilitar la gestión online.</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date2">May. 2025 - Jun. 2025</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title2">Conserje - Generalitat de Catalunya (Escuela de Adultos)</h4>
+                        <p data-i18n="curriculumText.exp_text2">Apoyo en tareas de mantenimiento y organización del centro educativo. 
+                        Atención al personal docente, alumnado y visitantes, garantizando el correcto funcionamiento de las instalaciones. 
+                        Colaboración en la gestión de materiales y coordinación de servicios diarios del centro.</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date3">Abr. 2025 - May. 2025</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title3">Cristalero - Generalitat de Catalunya</h4>
+                        <p data-i18n="curriculumText.exp_text3">Encargado de la instalación, reparación y mantenimiento de cristales en edificios públicos. 
+                        Colaboración con otros departamentos para garantizar la seguridad y el correcto estado de las instalaciones. 
+                        Realización de trabajos de precisión y control de materiales para asegurar acabados de alta calidad.</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date4">Dic. 2023 - Jul. 2024</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title4">Departamento de Soporte (Prácticas) - Audifilm</h4>
+                        <p data-i18n="curriculumText.exp_text4">Apoyo en el departamento de soporte técnico, resolviendo incidencias y asistiendo a usuarios. 
+                        También participé en tareas de mantenimiento de bases de datos y consultas SQL para la gestión de información interna.</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date5">Oct. 2023 - Ene. 2024</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title5">Operario de Almacén - Tradeinn</h4>
+                        <p data-i18n="curriculumText.exp_text5">Trabajo en el almacén gestionando la recepción, organización y preparación de pedidos. 
+                        Control de stock, empaquetado de productos y uso de sistemas informáticos para el registro y seguimiento de envíos. 
+                        Contribución a mantener la eficiencia y el orden en las operaciones logísticas.</p>
+                    </div>
+
+                    <div class="mt-3 resume_info">
+                        <span class="badge-secondary" data-i18n="curriculumText.exp_date6">Jun. 2021 - Sep. 2022</span>
+                        <h4 class="mt-1" data-i18n="curriculumText.exp_title6">Atención al Cliente y Soporte Operativo - Gasolinera Repsol</h4>
+                        <p data-i18n="curriculumText.exp_text6">Atención al cliente, gestión de pagos y control de cajas. 
+                        Realización de tareas de mantenimiento básico y apoyo en la gestión del stock y suministros. 
+                        Colaboración con el equipo para garantizar un servicio rápido y eficiente.</p>
+                        <br/><br/>
+                    </div>
+
+
+
+
+                    <h3 class="mt-3 mb-2" data-i18n="curriculumText.title_habs">Habilidades</h3>
+                    <div class="card resume_skills">
+
+                        <p class="mt-2 mb-1"><b>C#</b> - 100%</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%;"></div>
+                        </div>
+
+                        <p class="mt-3 mb-1"><b>Kotlin & Java</b> - 90%</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+
+                        <p class="mt-3 mb-1"><b>XML & SQL</b> - 70%</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+
+                        <p class="mt-3 mb-1"><b>HTML & CSS</b> - 60%</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/lang.js"></script>
+</html>
