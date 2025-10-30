@@ -44,15 +44,22 @@ The selected language is stored in **LocalStorage**, so your preference is remem
 ## 🧩 Project Structure
 
 📁 portfolio-project
+
 ├── index.html
+
 ├── resume.html
+
 ├── portfolio.html
+
 ├── css/
 │ └── styles.css
+
 ├── js/
 │ └── translations.js
+
 ├── img/
 │ └── (site images)
+
 └── README.md
 
 ## ⚙️ How to Run Locally
