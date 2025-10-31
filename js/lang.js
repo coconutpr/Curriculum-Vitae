@@ -69,7 +69,10 @@ const translations = {
             exp_text6:"Atención al cliente, gestión de pagos y control de cajas. Realización de tareas de mantenimiento básico y apoyo en la gestión del stock y suministros. Colaboración con el equipo para" + 
             " garantizar un servicio rápido y eficiente.",
             title_habs:"Habilidades",
-        }
+        },
+        portfolioText: {
+            title: "Portafolio",
+        },
     },
     en: {
         nav: {
@@ -141,7 +144,10 @@ const translations = {
             exp_text6:"Handled customer service, payment processing, and cash control. Performed basic maintenance and supported stock and supply management. Collaborated with the team to"+
             " ensure fast and efficient service.",
             title_habs: "Skills"
-        }
+        },
+        portfolioText: {
+            title: "Portfolio",
+        },
 
     },
     ca: {
@@ -214,7 +220,10 @@ const translations = {
             exp_text6:"Atenció al client, gestió de pagaments i control de caixes. Realització de tasques de manteniment bàsic i suport en la gestió d’estocs i subministraments."+
             " Col·laboració amb l’equip per garantir un servei ràpid i eficient.",
             title_habs: "Habilitats"
-        }
+        },
+        portfolioText: {
+            title: "Portafolis",
+        },
 
 
     },
@@ -288,9 +297,12 @@ const translations = {
             exp_text6:"Service client, gestion des paiements et contrôle de caisse. Réalisation de tâches d’entretien de base et aide à la gestion des stocks et des fournitures. Collaboration"+
             " avec l’équipe pour garantir un service rapide et efficace.",
             title_habs: "Compétences"
-        }
+        },
+        portfolioText: {
+            title: "Portefeuille",
+        },
 
-    }
+    },
 };
 
 
